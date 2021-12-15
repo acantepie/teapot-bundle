@@ -1,0 +1,22 @@
+{
+    "name": "acantepie/teapot-bundle",
+    "type": "symfony-bundle",
+    "description": "The best teapot bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Acantepie\\TeapotBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrien Cantepie",
+            "email": "adrien.cantepie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "doctrine/orm": "^2.10",
+        "doctrine/doctrine-bundle": "^2.5"
+    }
+}
